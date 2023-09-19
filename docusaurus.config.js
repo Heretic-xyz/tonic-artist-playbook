@@ -93,7 +93,7 @@ const config = {
             items: [
               {
                 label: 'Artist Playbook',
-                to: '/docs/intro',
+                to: '/',
               },
             ],
           },
