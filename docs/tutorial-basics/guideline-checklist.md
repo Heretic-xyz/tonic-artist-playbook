@@ -9,4 +9,4 @@ The following checklist of requests helps align artists with Tonic's processes i
 - Import/load third-party libraries in a way that is appropriate to your project (e.g. via `<script>` tags in the case of client-side Javascript).
 - Consolidate your code into as few files as viable, preferably a single file when possible (e.g. one HTML file with inlined JS in the case of a browser-friendly generator)
 - Ability to pass a seed to the generator with relative ease (e.g. a URL parameter such as `seed` in the case of a browser-friendly generator), results should be deterministic based off the seed, so that users can regenerate their own images
-- Ability to pass a 
+- Ability to pass `width` and `height` pixel count values to the generator with relative ease (e.g. `width` and `height` URL parameters), it's alright if these values have to be the same or follow a certain aspect ratio, if the aspect ratio is 1:1, it's alright for this to be combined into a single `size` value (measured in pixels).
