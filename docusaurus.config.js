@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/favicon.png',
 
   // Set the production url of your site here
-  url: 'heretic-xyz.github.io',
+  url: 'https://heretic-xyz.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/tonic-artist-playbook/',
